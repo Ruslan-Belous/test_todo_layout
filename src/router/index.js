@@ -6,10 +6,10 @@ import TodoPage from '../views/TodoPage.vue'
 
 Vue.use(VueRouter)
 const routes = [
-  {
-    path: '/',
-    redirect: 'login'
-  },
+  // {
+  //   path: '/',
+  //   redirect: 'login'
+  // },
   {
     path: '/login',
     name: 'Login',
