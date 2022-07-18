@@ -1,0 +1,82 @@
+.v-container {
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+.btn-s {
+  width: 106px;
+  height: 39px;
+  outline: none;
+  font: 400 16px 'Roboto';
+}
+.btn-m {
+  width: 159px;
+  height: 56px;
+  outline: none;
+  font: 400 16px 'Roboto';
+}
+.btn-xl {
+  width: 425px;
+  height: 58px;
+  outline: none;
+  font: 400 25px/29px 'Roboto';
+}
+.btn-grey {
+  background-color: #333333;
+  color: #fff;
+  outline: none;
+  border: 2px solid #333333;
+}
+.btn-blue {
+  background-color: #0076c0;
+  color: #fff;
+  outline: none;
+  border: 2px solid #0076c0;
+}
+.btn-blue:hover {
+  border: 2px solid #0076c0;
+  background-color: #fff;
+  color: #0076c0;
+  transition: 0.4s;
+}
+.btn-primary {
+  padding: 12px 175px;
+  background-color: #0076c0;
+  border: 2px solid #0076c0;
+  color: #fff;
+  font: 400 25px/29px 'Roboto';
+  transition: 0.4s;
+}
+.btn-secondary {
+  background-color: #fff;
+  color: #0076c0;
+  padding: 8px 28px;
+  border: 2px solid #00569a;
+  font: 400 16px 'Roboto';
+  transition: 0.4s;
+}
+.btn-secondary:hover {
+  background-color: #00569a;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: 0.4s;
+}
+.btn-del {
+  background-color: #0076c0;
+  color: #fff;
+  border: 2px solid #0076c0;
+  transition: 0.4s;
+}
+.btn-del:hover {
+  background-color: #d60000;
+  border: 2px solid #d60000;
+  color: #fff;
+  transition: 0.4s;
+}
+.completed {
+  text-decoration: line-through;
+  color: #d60000;
+}
+.hide {
+  transition: 0s;
+  display: none;
+}

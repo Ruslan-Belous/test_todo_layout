@@ -1,0 +1,23 @@
+/* @media (max-width: 1200px) {
+  .v-content {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .v-content {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .v-content {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .v-content {
+    max-width: none;
+  }
+} */
