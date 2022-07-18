@@ -28,6 +28,6 @@ const router = new VueRouter({
 })
 router.beforeEach((to, from, next) => {
   if (to.name !== 'Login' && !store.state.isUserLogged) next({ name: 'Login' })
-  else next()
+  next({ name: 'Login' })
 })
 export default router
