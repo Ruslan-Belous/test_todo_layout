@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <v-header />
-    <router-view />
+    <keep-alive>
+      <router-view />
+    </keep-alive>
     <v-footer />
   </div>
 </template>

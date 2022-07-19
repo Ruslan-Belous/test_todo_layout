@@ -34,10 +34,10 @@ export default {
     logOut() {
       localStorage.setItem('isUserLogged', false)
       this.CHANGE_USER_STATUS()
+      localStorage.clear()
       this.$router.push({
         name: 'Login',
       })
-      localStorage.clear()
     },
   },
 }
